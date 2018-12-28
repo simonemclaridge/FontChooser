@@ -17,8 +17,8 @@ public class Main extends Application {
         primaryStage.setTitle("Font Chooser");
         primaryStage.setScene(new Scene(root, 500, 500));
 
-        Image image = new Image(new FileInputStream("C:\\Users\\Simone\\IdeaProjects\\FontChooser\\src\\images\\earth-icon-1.png"));
-        primaryStage.getIcons().add(image);
+        Image globeIcon = new Image(new FileInputStream("C:\\Users\\Simone\\IdeaProjects\\FontChooser\\src\\images\\earth-icon-1.png"));
+        primaryStage.getIcons().add(globeIcon);
 
         primaryStage.show();
     }
